@@ -1,12 +1,17 @@
 # clone the project
 git clone https://github.com/zfireear/gitpractice.git
 
+# create a master branch
+git branch -M master
+# track remote
+git remote add origin https://github.com/zfireear/gitpractice.git
+
 # check the branch
-git branch 
+git branch -vv 
 # -r : to see remote branches
 # -a : to see all local and remote branches
 
-# (optional) change the local branch name
+# (optional) change the branch name
 # old-branch-name: main
 # new-branch-name: master
 git branch -m old-branch-name new-branch-name
