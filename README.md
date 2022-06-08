@@ -36,9 +36,13 @@ git checkout -b feature/BCE-XXX or bugfix/BCE-XXX
 ### if branch existed, switch to a branch in your local repo
 git checkout feature/BCE-XXX or bugfix/BCE-XXX
 
+
 ### 4.test your feature or bugfix, if work well, push to remote
 git push origin feature/BCE-XXX or bugfix/BCE-XXX
 ### if the upstream branch is not already created,run the command with the “-u” option
+
+#### (optional) if you failed to push, run the follow command
+git push --set-upstream origin feature/BCE-XXX
 
 ### 5.checkout to BCE/staging if the feature/bugfix is completed within the regression test
 git checkout BCE/staging
@@ -54,4 +58,5 @@ git commit -m "Merge 'feature/BCE-XXX' or 'bugfix/BCE-XXX' branch into 'BCE/stag
 
 ### 9.push the changes in BCE/staging branch to remote
 git push origin BCE/staging
+
 
