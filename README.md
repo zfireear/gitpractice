@@ -51,5 +51,5 @@ git merge --squash feature/BCE-XXX or bugfix/BCE-XXX
 git commit -m "Merge 'feature/BCE-XXX' or 'bugfix/BCE-XXX' branch into 'BCE/staging'"
 
 ### 9.push the changes in BCE/staging branch to remote
-git push
+git push origin BCE/staging
 
