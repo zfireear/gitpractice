@@ -36,7 +36,7 @@ git checkout -b feature/BCE-XXX or bugfix/BCE-XXX
 ### if branch existed, switch to a branch in your local repo
 git checkout feature/BCE-XXX or bugfix/BCE-XXX
 
-### add change
+### add all change 
 git add .
 ### commit change
 git commit -m "add xxx"
