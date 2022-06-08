@@ -1,7 +1,7 @@
 ### clone the project
 git clone https://github.com/zfireear/gitpractice.git
 
-### create a master branch
+#### (option)create a master branch,default is main branch
 git branch -M master
 ### track remote
 git remote add origin https://github.com/zfireear/gitpractice.git
@@ -11,13 +11,13 @@ git branch -vv
 - -r : to see remote branches
 - -a : to see all local and remote branches
 
-### (optional) change the branch name
-### old-branch-name: main
-### new-branch-name: master
+#### (optional) change the branch name
+#### old-branch-name: main
+#### new-branch-name: master
 git branch -m old-branch-name new-branch-name
-### (optional) delete remote branch
+#### (optional) delete remote branch
 git push origin --delete old-branch-name
-### (optional) push renamed branch to remote
+#### (optional) push renamed branch to remote
 git push origin -u new-branch-name
 
 ## git flow Process
