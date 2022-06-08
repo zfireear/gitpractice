@@ -1,4 +1,4 @@
-### clone the project
+#### clone the project
 git clone https://github.com/zfireear/gitpractice.git
 
 #### (option)create a master branch,default is main branch
@@ -19,6 +19,8 @@ git branch -m old-branch-name new-branch-name
 git push origin --delete old-branch-name
 #### (optional) push renamed branch to remote
 git push origin -u new-branch-name
+#### (optional) delet local branch
+git branch -d local-branch-name
 
 ## git flow Process
 
@@ -51,5 +53,5 @@ git merge --squash feature/BCE-XXX or bugfix/BCE-XXX
 git commit -m "Merge 'feature/BCE-XXX' or 'bugfix/BCE-XXX' branch into 'BCE/staging'"
 
 ### 9.push the changes in BCE/staging branch to remote
-git push
+git push origin BCE/staging
 
