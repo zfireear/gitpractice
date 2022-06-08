@@ -19,6 +19,8 @@ git branch -m old-branch-name new-branch-name
 git push origin --delete old-branch-name
 #### (optional) push renamed branch to remote
 git push origin -u new-branch-name
+#### (optional) delet local branch
+git branch -d local-branch-name
 
 ## git flow Process
 
