@@ -12,8 +12,8 @@ git branch -vv
 - -a : to see all local and remote branches
 
 #### (optional) change the branch name
-#### old-branch-name: main
-#### new-branch-name: master
+##### old-branch-name: main
+##### new-branch-name: master
 git branch -m old-branch-name new-branch-name
 #### (optional) delete remote branch
 git push origin --delete old-branch-name
