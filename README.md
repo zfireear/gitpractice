@@ -1,7 +1,7 @@
 ### clone the project
 git clone https://github.com/zfireear/gitpractice.git
 
-### create a master branch
+#### (option)create a master branch,default is main branch
 git branch -M master
 ### track remote
 git remote add origin https://github.com/zfireear/gitpractice.git
