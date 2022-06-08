@@ -36,6 +36,9 @@ git checkout -b feature/BCE-XXX or bugfix/BCE-XXX
 ### if branch existed, switch to a branch in your local repo
 git checkout feature/BCE-XXX or bugfix/BCE-XXX
 
+### add and commit your change
+git add .
+git commit -m "add xxx"
 
 ### 4.test your feature or bugfix, if work well, push to remote
 git push origin feature/BCE-XXX or bugfix/BCE-XXX
